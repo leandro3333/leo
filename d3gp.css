@@ -1,0 +1,36 @@
+*{
+ margin:0;
+ padding:0;
+}
+#geral{
+ width:960px; /* Excluindo esta linha vc tem um layout fuido */
+ margin:0 auto;
+}
+#cabecalho{
+ background:#0099FF;
+ padding:10px;
+}
+#rodape{
+ background:#0099FF;
+ padding:10px;
+ text-align:center;
+}
+#esquerda{
+ width:197px;
+ background:#999999;
+ padding:3px;
+ float:left;
+}
+#direita{
+ width:197px;
+ background:#999999;
+ padding:3px;
+ float:right;
+}
+#centro{
+ background:#FFFF66;
+ margin:0 200px; /* a margem colocada aqui deve ser sempre a largura da
+coluna da esquerda */
+ padding:3px;
+}
+.clear{clear:both;}
